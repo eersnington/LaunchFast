@@ -1,9 +1,9 @@
-import { SubscriptionPlan } from "types"
+import { SubscriptionPlan, paymentSupportConfig, pricingFaqConfig } from "types"
 import { env } from "@/env.mjs"
 
-export const paymentSupport = {
+export const paymentSupport: paymentSupportConfig = {
   email: "support@zaplineai.cloud",
-  // message1: "If you have any questions or need assistance, please don't hesitate to contact us.", // There is another one in pricing-faq.tsx
+  message1: "If you have any questions or need assistance, please don't hesitate to contact us.", // There is another one in pricing-faq.tsx
   message2: "Do give me a day or two to get back to you. I'm a one-person team, but I promise to respond as soon as I can.",
 }
 
@@ -76,7 +76,7 @@ export const pricingData: SubscriptionPlan[] = [
   },
 ];
 
-export const pricingFaqData = [
+export const pricingFaqData: pricingFaqConfig[] = [
   {
     id: "item-1",
     question: "What is the cost of the free plan?",
