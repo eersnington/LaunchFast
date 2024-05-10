@@ -8,7 +8,7 @@ export const heroLanding: HeroSection = {
 };
 
 export const PreviewImage = {
-  src: "/preview-landing-2000x1000.jpg",
+  src: "/images/preview-landing-2000x1000.jpg",
   alt: "preview landing",
   width: 2000,
   height: 1000,
@@ -126,21 +126,21 @@ export const testimonials: TestimonialsList = {
         "LaunchFast has been a game-changer for my startup. It allowed us to quickly launch our product and start acquiring customers. This saved us countless hours of development time.",
     },
     {
-      name: "John Davis",
+      name: "David O'Hara",
       job: "Software Engineer",
       image: "https://randomuser.me/api/portraits/men/2.jpg",
       review:
         "I've been using LaunchFast for my side projects, and it's been amazing. It's saved me so much time by providing a solid foundation that I can build upon. I highly recommend it to anyone looking to quickly bootstrap their projects.",
     },
     {
-      name: "Alex Johnson",
+      name: "Alex Han",
       job: "Indie Developer",
       image: "https://randomuser.me/api/portraits/men/4.jpg",
       review:
         "I can't imagine building my projects without LaunchFast. The speed and efficiency it provides are unmatched.",
     },
     {
-      name: "Emily Wilson",
+      name: "Emily W.",
       job: "Aspiring Developer",
       image: "https://randomuser.me/api/portraits/women/3.jpg",
       review:
