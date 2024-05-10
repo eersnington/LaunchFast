@@ -8,7 +8,7 @@ export function HeaderSection({ label, title, subtitle }: HeaderSectionProps) {
   return (
     <div className="flex flex-col items-center text-center">
       {label ? (
-        <div className="text-gradient_indigo-purple mb-4 font-semibold text-xl">
+        <div className="text-gradient_indigo-purple mb-4 text-xl font-semibold">
           {label}
         </div>
       ) : null}
