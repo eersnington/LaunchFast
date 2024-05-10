@@ -19,6 +19,11 @@ export async function HeroLanding() {
   return (
     <section className="space-y-6 py-12 sm:py-20 lg:py-20">
       <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
+
+        {/* 
+          This is the Twitter Bagde for #BuildInPublic. You can replace it with Product Hunt Badge or any other badge.
+          Make sure to replace the href with your Product Hunt link or any other link.
+        */}
         <Link
           href="https://twitter.com/sreenington"
           className={cn(
@@ -30,6 +35,11 @@ export async function HeroLanding() {
           <span className="mr-3">🎉</span> #BuildInPublic in{" "}
           <Icons.twitter className="ml-2 size-3.5" />
         </Link>
+
+        {/* 
+          The header text is below. 
+          Make sure to replace the text with your own header text. Edit it in the config/landing.ts file.
+        */}
 
         <h1 className="text-balance font-urban text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-[66px]">
           {heroLanding.headerText}{" "}
@@ -45,7 +55,11 @@ export async function HeroLanding() {
           {heroLanding.subHeaderText}
         </p>
 
-        <div
+        {/*
+          Call To Action buttons are below
+          You can add more buttons or change the text of the buttons
+        */}
+        {/* <div
           className="flex justify-center space-x-2 md:space-x-4"
           style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}
         >
@@ -79,7 +93,7 @@ export async function HeroLanding() {
               <span className="font-semibold">docs</span>
             </p>
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );
