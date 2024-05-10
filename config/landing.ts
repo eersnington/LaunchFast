@@ -1,13 +1,13 @@
 import { sub } from "date-fns";
-import { FeaturesList, InfoLdg, TestimonialsList, HeroSection } from "types";
+import { FeaturesList, InfoLdg, TestimonialsList, HeroSectionConfig, PreviewImageConfig } from "types";
 
-export const heroLanding: HeroSection = {
+export const heroLanding: HeroSectionConfig = {
   headerText: "From idea to launch in",
   headerTextColor: "days, not weeks",
   subHeaderText: "Kickstart your next startup with this dead simple, yet robust Next.js boilerplate. Built for production and typesafety, it's your launchpad to build with confidence."
 };
 
-export const PreviewImage = {
+export const PreviewImage: PreviewImageConfig = {
   src: "/images/preview-landing-2000x1000.jpg",
   alt: "preview landing",
   width: 2000,
