@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { UserSubscriptionPlan } from "@/types";
 
-import { pricingData } from "@/config/subscriptions";
+import { paymentSupport, pricingData } from "@/config/subscriptions";
 import { cn } from "@/lib/utils";
 import { useSigninModal } from "@/hooks/use-signin-modal";
 import { Button, buttonVariants } from "@/components/ui/button";
@@ -174,14 +174,14 @@ export function PricingCards({ userId, subscriptionPlan }: PricingCardsProps) {
         Email{" "}
         <a
           className="font-medium text-primary hover:underline"
-          href="mailto:support@saas-starter.com"
+          href={`mailto:${paymentSupport.email}`}
         >
-          support@saas-starter.com
+          {paymentSupport.email}
         </a>{" "}
         for to contact our support team.
         <br />
         <strong>
-          You can test the subscriptions and won&apos;t be charged.
+          {paymentSupport.message2}{" "}
         </strong>
       </p>
     </section>
