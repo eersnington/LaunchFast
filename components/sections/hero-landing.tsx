@@ -17,7 +17,7 @@ import { Icons } from "@/components/shared/icons";
 export async function HeroLanding() {
 
   return (
-    <section className="space-y-6 py-12 sm:py-20 lg:py-20">
+    <section className="space-y-6 py-12 sm:py-20 lg:py-8">
       <div className="container flex max-w-5xl flex-col items-center gap-5 text-center">
 
         {/* 
@@ -59,7 +59,7 @@ export async function HeroLanding() {
           Call To Action buttons are below
           You can add more buttons or change the text of the buttons
         */}
-        {/* <div
+        <div
           className="flex justify-center space-x-2 md:space-x-4"
           style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}
         >
@@ -93,7 +93,7 @@ export async function HeroLanding() {
               <span className="font-semibold">docs</span>
             </p>
           </Link>
-        </div> */}
+        </div>
       </div>
     </section>
   );
