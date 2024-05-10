@@ -43,10 +43,17 @@ export type SiteConfig = {
   defaultTheme: "dark" | "light" | "system";
 };
 
-export type HeroSection = {
+export type HeroSectionConfig = {
   headerText: string;
   headerTextColor: string;
   subHeaderText: string;
+}
+
+export type PreviewImageConfig = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
 }
 
 export type FeaturesList = {
@@ -87,6 +94,12 @@ export type DashboardConfig = {
   sidebarNav: SidebarNavItem[];
 };
 
+export type paymentSupportConfig = {
+  email: string;
+  message1: string;
+  message2: string;
+};
+
 export type SubscriptionPlan = {
   title: string;
   description: string;
@@ -109,6 +122,12 @@ export type UserSubscriptionPlan = SubscriptionPlan &
     interval: "month" | "year" | null;
     isCanceled?: boolean;
   };
+
+export type pricingFaqConfig = {
+  id: string;
+  question: string;
+  answer: string;
+};
 
 export type InfoList = {
   icon: keyof typeof Icons;
