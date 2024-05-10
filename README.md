@@ -1,6 +1,6 @@
 <a href="https://zaplineai.cloud">
   <img alt="LaunchFast" src="public/og.jpg">
-  <h1 align="center">Next.js SaaS Template made Simple and Safe.</h1>
+  <h1 align="center">Next.js SaaS Boilerplate that is TypeSafe and Production Ready!</h1>
 </a>
 
 <p align="center">
@@ -18,7 +18,6 @@
   <a href="#installation"><strong>Installation</strong></a> ·
   <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
   <a href="#author"><strong>Author</strong></a> ·
-  <a href="#credits"><strong>Credits</strong></a>
 </p>
 <br/>
 
@@ -27,12 +26,25 @@
 Empower your next project with the stack of Next.js 14, Prisma, Supabase, Auth.js v5, Resend, React Email, Shadcn/ui, and Stripe.
 <br/>
 
+## Roadmap
+
+- [x] ~Fix Vaul drawer for mobile sign in~
+- [x] ~Update OG image~
+- [x] ~Add Server Actions on billing form (stripe)~
+- [x] ~Add Server Actions on user name form~
+- [x] ~Upgrade Auth.js to v5~
+- [x] ~Add Supabase as database~
+- [x] ~Switch subscription plan (enable on stripe dashboard)~
+- [ ] Update documentation for installation & configuration (work on it)
+- [ ] Upgrade eslint to v9
+- [ ] Add resend for success subscriptions
+
 ## Installation
 
 Clone & create this repo locally with the following command:
 
 ```bash
-npx create-next-app my-saas-project --example "https://github.com/mickasmt/next-saas-stripe-starter"
+git clone "https://github.com/eersnington/LaunchFast.git"
 ```
 
 1. Install dependencies using npm:
@@ -45,6 +57,7 @@ npm install
 
 ```sh
 cp .env.example .env.local
+# then update the variables
 ```
 
 3. Start the development server:
@@ -61,19 +74,6 @@ npm run dev
 > [!WARNING]  
 > You need update `.react-email` folder before use `npm run email`. Check the link [here](https://github.com/resend/react-email/issues/868#issuecomment-1828411325) if you have the error : `renderToReadableStream not found`
 >
-
-## Roadmap
-
-- [x] ~Fix Vaul drawer for mobile sign in~
-- [x] ~Update OG image~
-- [x] ~Add Server Actions on billing form (stripe)~
-- [x] ~Add Server Actions on user name form~
-- [x] ~Upgrade Auth.js to v5~
-- [x] ~Add Supabase as database~
-- [x] ~Switch subscription plan (enable on stripe dashboard)~
-- [ ] Update documentation for installation & configuration (work on it)
-- [ ] Upgrade eslint to v9
-- [ ] Add resend for success subscriptions
 
 ## Tech Stack + Features
 
@@ -122,7 +122,3 @@ npm run dev
 ## Author
 
 Created by [@sreenington] (https://twitter.com/sreenington)
-
-## Credits
-
-This project was inspired by Antonio Erdeljac's [ShipFa.st](https://www.youtube.com/@marc-lou), and Joscha Neske's [JoshTriedCoding] (https://www.youtube.com/@joshtriedcoding)
