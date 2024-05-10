@@ -7,7 +7,7 @@ export const siteConfig: SiteConfig = {
   name: "LaunchFast",
   author: "Sreenington",
   description:
-    "LaunchFast propels your project with Next.js 14, Prisma, Supabase, Auth.js v5, Resend, React Email, Shadcn/ui, and Stripe. Built for production and type-safe, it's your launchpad to build with confidence.",
+    "Don't waste your time building your next Startup from scratch! LaunchFast is powered by Next.js 14, Prisma, Supabase, Auth.js v5, Resend, React Email, Shadcn/ui, and Stripe. Ready for production and type-safety, it's your launchpad to build with confidence.",
   url: site_url,
   ogImage: `${site_url}/og.jpg`,
   links: {
