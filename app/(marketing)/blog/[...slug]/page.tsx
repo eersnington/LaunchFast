@@ -20,7 +20,9 @@ interface PostPageProps {
 }
 
 async function getPostFromParams(params) {
+  console.log("Params:", params)
   const slug = params?.slug?.join("/")
+  console.log("Slug:", slug);
   const post = allPosts.find((post) => post.slugAsParams === slug)
 
   if (!post) {
@@ -116,7 +118,7 @@ export default async function PostPage({ params }: PostPageProps) {
           </time>
         )}
         <h1 className="mt-2 inline-block text-balance font-heading text-4xl leading-tight lg:text-5xl">
-            {post.title}
+          {post.title}
         </h1>
         {authors?.length ? (
           <div className="mt-4 flex space-x-4">
