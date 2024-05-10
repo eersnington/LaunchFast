@@ -225,7 +225,7 @@ export function BentoGrid() {
                         SEO Optimized
                       </h2>
                       <p className="text-muted-foreground">
-                        Designed with SEO best practices to improve your site's ranking and visibility on search engines
+                        Designed with SEO best practices to improve your site&apos;s ranking and visibility on search engines
                       </p>
                     </div>
                   </div>
@@ -309,7 +309,7 @@ export function BentoGrid() {
                         SEO Optimized
                       </h2>
                       <p className="text-muted-foreground">
-                        Designed with SEO best practices to improve your site's ranking and visibility on search engines
+                        Designed with SEO best practices to improve your site&apos;s ranking and visibility on search engines
                       </p>
                     </div>
                   </div>
