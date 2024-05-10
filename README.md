@@ -1,5 +1,5 @@
-<a href="https://next-saas-stripe-starter.vercel.app">
-  <img alt="SaaS Starter" src="public/og.jpg">
+<a href="https://zaplineai.cloud">
+  <img alt="LaunchFast" src="public/og.jpg">
   <h1 align="center">Next.js SaaS Template made Simple and Safe.</h1>
 </a>
 
@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/miickasmt">
-    <img src="https://img.shields.io/twitter/follow/miickasmt?style=flat&label=miickasmt&logo=twitter&color=0bf&logoColor=fff" alt="Mickasmt Twitter follower count" />
+  <a href="https://twitter.com/sreenington">
+    <img src="https://img.shields.io/twitter/follow/sreenington?style=flat&label=sreenington&logo=twitter&color=0bf&logoColor=fff" alt="Sreenington Twitter follower count" />
   </a>
 </p>
 
@@ -77,8 +77,6 @@ npm run dev
 
 ## Tech Stack + Features
 
-https://github.com/mickasmt/next-saas-stripe-starter/assets/62285783/828a4e0f-30e3-4cfe-96ff-4dfd9cd55124
-
 ### Frameworks
 
 - [Next.js](https://nextjs.org/) – React framework for building performant apps with the best developer experience
@@ -105,7 +103,7 @@ https://github.com/mickasmt/next-saas-stripe-starter/assets/62285783/828a4e0f-30
 
 - `useIntersectionObserver` – React hook to observe when an element enters or leaves the viewport
 - `useLocalStorage` – Persist data in the browser's local storage
-- `useScroll` – React hook to observe scroll position ([example](https://github.com/mickasmt/precedent/blob/main/components/layout/navbar.tsx#L12))
+- `useScroll` – React hook to observe scroll position
 - `nFormatter` – Format numbers with suffixes like `1.2k` or `1.2M`
 - `capitalize` – Capitalize the first letter of a string
 - `truncate` – Truncate a string to a specified length
@@ -128,7 +126,3 @@ Created by [@sreenington] (https://twitter.com/sreenington)
 ## Credits
 
 This project was inspired by Antonio Erdeljac's [ShipFa.st](https://www.youtube.com/@marc-lou), and Joscha Neske's [JoshTriedCoding] (https://www.youtube.com/@joshtriedcoding)
-
-- Shadcn ([@shadcn](https://twitter.com/shadcn))
-- Steven Tey ([@steventey](https://twitter.com/steventey))
-- Antonio Erdeljac ([@YTCodeAntonio](https://twitter.com/AntonioErdeljac))

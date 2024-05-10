@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
     "Stripe payments",
     "SaaS development tools"
   ],
-  defaultTheme: "dark" // "dark" | "light" | "system"
+  defaultTheme: "light" // "dark" | "light" | "system"
 };
 
 export const footerLinks: SidebarNavItem[] = [
@@ -45,18 +45,20 @@ export const footerLinks: SidebarNavItem[] = [
     title: "Company",
     items: [
       { title: "About", href: "#" },
-      { title: "Enterprise", href: "#" },
-      { title: "Partners", href: "#" },
-      { title: "Jobs", href: "#" },
+      { title: "Pricing", href: "/pricing" },
+      { title: "Blog", href: "/blog" },
+      { title: "Documentation", href: "/docs" },
+      // { title: "Enterprise", href: "#" },
+      // { title: "Partners", href: "#" },
+      // { title: "Jobs", href: "#" },
     ],
   },
   {
-    title: "Product",
+    title: "Socials",
     items: [
-      { title: "Security", href: "#" },
-      { title: "Customization", href: "#" },
-      { title: "Customers", href: "#" },
-      { title: "Changelog", href: "#" },
+      { title: "X | Twitter", href: "https://twitter.com/sreenington/" },
+      { title: "LinkedIn", href: "https://www.linkedin.com/in/sreenington/" },
+      { title: "Product Hunt", href: "https://www.producthunt.com/@sreenington" },
     ],
   },
   {
@@ -64,7 +66,7 @@ export const footerLinks: SidebarNavItem[] = [
     items: [
       { title: "Terms of Service", href: "#" },
       { title: "Privacy Policy", href: "#" },
-      { title: "Refund Policy", href: "#" },
+      // { title: "Refund Policy", href: "#" },
     ],
   },
 ];
