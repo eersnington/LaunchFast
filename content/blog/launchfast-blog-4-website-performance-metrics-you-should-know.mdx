@@ -1,0 +1,50 @@
+---
+title: Performance Metrics Every Frontend Developer Should Know
+description: Learn about key performance metrics to improve the speed and efficiency of your frontend applications.
+image: /images/blog/blog-post-4.jpg
+date: "2024-05-08"
+authors:
+  - Sreenington
+---
+
+Performance is a critical aspect of web development, especially for frontend developers. Understanding and optimizing performance metrics can significantly impact the user experience and overall success of your applications. In this guide, we'll explore key performance metrics that every frontend developer should know and how to use them to improve the speed and efficiency of your applications.
+
+## Key Performance Metrics
+
+### 1. First Contentful Paint (FCP)
+
+FCP measures the time it takes for the first piece of content to be rendered on the screen. It indicates how quickly users perceive that your site is loading. A fast FCP is crucial for a positive user experience.
+
+### 2. Largest Contentful Paint (LCP)
+
+LCP measures the loading time of the largest content element visible within the viewport. It helps identify when the main content of the page has loaded, which is essential for user engagement. A good LCP is typically under 2.5 seconds.
+
+### 3. Total Blocking Time (TBT)
+
+TBT measures the total amount of time between First Contentful Paint (FCP) and Time to Interactive (TTI) where the main thread is blocked for long enough to prevent input responsiveness. It indicates how smooth and interactive your site is during loading.
+
+### 4. Cumulative Layout Shift (CLS)
+
+CLS measures the amount of unexpected layout shift that occurs during the loading of a page. It quantifies how often users experience unexpected layout shifts, which can be frustrating. A low CLS is important for a good user experience.
+
+## How to Measure Performance Metrics
+
+You can measure these performance metrics using tools like Lighthouse, WebPageTest, or browser developer tools. These tools provide detailed insights into your application's performance and suggest optimizations to improve speed and efficiency.
+
+## Performance Budgets
+
+Setting performance budgets can help ensure that your application meets performance goals. A performance budget defines limits for various performance metrics, such as maximum page load time or resource sizes. By staying within these limits, you can maintain a fast and efficient application.
+
+## Summary
+
+Performance metrics are essential for frontend developers to understand and optimize. By focusing on metrics like FCP, LCP, TBT, and CLS, you can improve the speed and efficiency of your applications, leading to a better user experience. Use tools like Lighthouse and WebPageTest to measure these metrics and set performance budgets to maintain optimal performance.
+
+| Metric                   | Description                                     | Target                                                                 |
+|--------------------------|-------------------------------------------------|------------------------------------------------------------------------|
+| First Contentful Paint   | Time to render the first piece of content       | < 1.5 seconds                                                          |
+| Largest Contentful Paint | Time to render the largest content element      | < 2.5 seconds                                                          |
+| Total Blocking Time      | Total time the main thread is blocked           | < 300 milliseconds                                                     |
+| Cumulative Layout Shift  | Amount of unexpected layout shift               | < 0.1 (ideal)                                                          |
+
+By focusing on these key metrics and following best practices, you can ensure that your frontend applications are fast, efficient, and provide an excellent user experience.
+
