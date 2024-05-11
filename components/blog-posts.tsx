@@ -12,7 +12,7 @@ export function BlogPosts({ posts }) {
             {posts[0].image && (
               <Image
                 alt={posts[0].title}
-                className="w-full rounded-lg border object-cover object-center md:h-64 lg:h-72"
+                className="aspect-video rounded-lg border object-cover object-center"
                 height={452}
                 src={posts[0].image}
                 width={804}
