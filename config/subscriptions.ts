@@ -9,7 +9,7 @@ export const paymentSupport: paymentSupportConfig = {
 
 export const pricingData: SubscriptionPlan[] = [
   {
-    title: 'Starter',
+    title: 'Starter (Sample)',
     description: 'For Beginners',
     benefits: [
       'Up to 100 monthly posts',
@@ -32,7 +32,7 @@ export const pricingData: SubscriptionPlan[] = [
     },
   },
   {
-    title: 'Pro',
+    title: 'Pro (Sample)',
     description: 'Unlock Advanced Features',
     benefits: [
       'Up to 500 monthly posts',
@@ -55,7 +55,7 @@ export const pricingData: SubscriptionPlan[] = [
     },
   },
   {
-    title: 'Business',
+    title: 'Business (Sample)',
     description: 'For Power Users',
     benefits: [
       'Unlimited posts',
