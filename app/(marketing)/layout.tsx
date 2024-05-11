@@ -2,6 +2,7 @@ import { NavBar } from "@/components/layout/navbar"
 import { SiteFooter } from "@/components/layout/site-footer"
 import { marketingConfig } from "@/config/marketing"
 import { getCurrentUser } from "@/lib/session"
+import { Analytics } from "@vercel/analytics/react"
 import { Suspense } from "react"
 
 interface MarketingLayoutProps {
@@ -15,6 +16,7 @@ export default async function MarketingLayout({
 
   return (
     <div className="flex min-h-screen flex-col">
+      <Analytics />
       <Suspense fallback="...">
         <NavBar user={user} items={marketingConfig.mainNav} scroll={true} />
       </Suspense>
