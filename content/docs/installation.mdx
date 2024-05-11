@@ -5,50 +5,35 @@ description: How to install the project.
 
 <Steps>
 
-### Create project
-
-Start by creating a new Next.js project using `create-next-app`:
+### 1. Create project
 
 ```bash
-npx create-next-app my-saas-project --example "https://github.com/mickasmt/next-saas-stripe-starter"
+mkdir my-saas-app
+cd my-sas-app
+git clone "https://github.com/eersnington/LaunchFast.git"
 ```
 
-### Install dependencies
+### 2. Install dependencies using npm:
 
-Enter in the folder and install dependencies for your project:
-
-```bash
-cd my-saas-project
-pnpm install
+```sh
+npm install
 ```
 
-### Create a `.env` file
+### 3. Copy `.env.example` to `.env.local`
 
-Copy/paste the `.env.example` in the `.env` file:
-
-```md title=".env"
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-
-NEXTAUTH_SECRET=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GITHUB_OAUTH_TOKEN=
-
-DATABASE_URL=
-
-RESEND_API_KEY=
-
-STRIPE_API_KEY=
-STRIPE_WEBHOOK_SECRET=
-
-NEXT_PUBLIC_STRIPE_PRO_MONTHLY_PLAN_ID=
-NEXT_PUBLIC_STRIPE_PRO_YEARLY_PLAN_ID=
-NEXT_PUBLIC_STRIPE_BUSINESS_MONTHLY_PLAN_ID=
-NEXT_PUBLIC_STRIPE_BUSINESS_YEARLY_PLAN_ID=
+```sh
+cp .env.example .env.local
+# then update the variables
 ```
 
-### Configuration part
+### 4. Start the development server:
 
-Let's check the configuration part for update all environment variables before use `pnpm run dev`.
+```sh
+npm run dev
+```
+
+### 5. Configuration part
+
+Let's check the configuration part for update all environment variables before use `npm run dev`.
 
 </Steps>
