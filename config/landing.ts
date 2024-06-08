@@ -2,9 +2,9 @@ import { sub } from "date-fns";
 import { FeaturesList, InfoLdg, TestimonialsList, HeroSectionConfig, PreviewImageConfig } from "types";
 
 export const heroLanding: HeroSectionConfig = {
-  headerText: "From idea to launch in",
-  headerTextColor: "days, not weeks",
-  subHeaderText: "Kickstart your next startup with this dead simple, yet robust Next.js boilerplate. Built for production and typesafety, it's your launchpad to build with confidence."
+  headerText: "Never lose your domains with",
+  headerTextColor: "wakeup call renewal alerts",
+  subHeaderText: "Stay ahead of domain expirations with Domain Dash. Get notified before your domains expire, and never end up paying $$$ grand when you lose your domain.",
 };
 
 export const PreviewImage: PreviewImageConfig = {
