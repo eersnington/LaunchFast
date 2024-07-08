@@ -5,10 +5,10 @@ const site_url = env.NEXT_PUBLIC_APP_URL;
 
 
 export const siteConfig: SiteConfig = {
-  name: "LaunchFast",
+  name: "QuickSaaS",
   author: "Sreenington",
   description:
-    "Don't waste your time building your next Startup from scratch! LaunchFast is powered by Next.js 14, Prisma, Supabase, Auth.js v5, Resend, React Email, Shadcn/ui, and Stripe. Ready for production and type-safety, it's your launchpad to build with confidence.",
+    "Don't waste your time building your next Startup from scratch! QuickSaaS is powered by Next.js 14, Prisma, Supabase, Auth.js v5, Resend, React Email, Shadcn/ui, and Stripe. Ready for production and type-safety, it's your launchpad to build with confidence.",
   url: site_url,
   ogImage: `${site_url}/og.jpg`,
   links: {
@@ -43,7 +43,7 @@ export const siteConfig: SiteConfig = {
 
 export const footerLinks: SidebarNavItem[] = [
   {
-    title: "Launch Fast",
+    title: "QuickSaaS",
     items: [
       { title: "About", href: "#" },
       { title: "Pricing", href: "/pricing" },
