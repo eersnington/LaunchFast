@@ -1,4 +1,4 @@
-<a href="https://zaplineai.cloud">
+<a href="https://quicksaas.vercel.app">
   <img alt="QuickSaaS" src="public/og.jpg">
   <h1 align="center">Next.js SaaS Boilerplate that is TypeSafe and Production Ready!</h1>
 </a>
