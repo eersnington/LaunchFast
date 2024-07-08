@@ -1,10 +1,9 @@
-import { sub } from "date-fns";
 import { FeaturesList, InfoLdg, TestimonialsList, HeroSectionConfig, PreviewImageConfig } from "types";
 
 export const heroLanding: HeroSectionConfig = {
-  headerText: "Never lose your domains with",
-  headerTextColor: "wakeup call renewal alerts",
-  subHeaderText: "Stay ahead of domain expirations with Domain Dash. Get notified before your domains expire, and never end up paying $$$ grand when you lose your domain.",
+  headerText: "From idea to launch in",
+  headerTextColor: "days, not weeks",
+  subHeaderText: "Kickstart your next startup with this dead simple, yet robust Next.js boilerplate. Built for production and typesafety, it's your launchpad to build with confidence."
 };
 
 export const PreviewImage: PreviewImageConfig = {
@@ -18,7 +17,7 @@ export const infos: InfoLdg[] = [
   {
     title: "Your launchpad to success",
     description:
-      "Discover why LaunchFast is the go-to choice for launching your next project. From type safety to scalability, LaunchFast empowers you to build, scale, and succeed.",
+      "Discover why QuickSaaS is the go-to choice for launching your next project. From type safety to scalability, QuickSaaS empowers you to build, scale, and succeed.",
     image: "/images/code-screenshot.jpg",
     list: [
       {
@@ -115,43 +114,43 @@ export const features: FeaturesList = {
 
 export const testimonials: TestimonialsList = {
   label: "Don't just take our word for it",
-  title: "Here's what our customers have to say about LaunchFast.",
-  subtitle: "Discover how LaunchFast has helped developers, entrepreneurs, and startups accelerate their projects and achieve their goals.",
+  title: "Here's what our customers have to say about QuickSaaS.",
+  subtitle: "Discover how QuickSaaS has helped developers, entrepreneurs, and startups accelerate their projects and achieve their goals.",
   testimonialsList: [
     {
       name: "Sarah Thompson",
       job: "Tech Startup Founder",
       image: "https://randomuser.me/api/portraits/women/1.jpg",
       review:
-        "LaunchFast has been a game-changer for my startup. It allowed us to quickly launch our product and start acquiring customers. This saved us countless hours of development time.",
+        "QuickSaaS has been a game-changer for my startup. It allowed us to quickly launch our product and start acquiring customers. This saved us countless hours of development time.",
     },
     {
       name: "David O'Hara",
       job: "Software Engineer",
       image: "https://randomuser.me/api/portraits/men/2.jpg",
       review:
-        "I've been using LaunchFast for my side projects, and it's been amazing. It's saved me so much time by providing a solid foundation that I can build upon. I highly recommend it to anyone looking to quickly bootstrap their projects.",
+        "I've been using QuickSaaS for my side projects, and it's been amazing. It's saved me so much time by providing a solid foundation that I can build upon. I highly recommend it to anyone looking to quickly bootstrap their projects.",
     },
     {
       name: "Alex Han",
       job: "Indie Developer",
       image: "https://randomuser.me/api/portraits/men/4.jpg",
       review:
-        "I can't imagine building my projects without LaunchFast. The speed and efficiency it provides are unmatched.",
+        "I can't imagine building my projects without QuickSaaS. The speed and efficiency it provides are unmatched.",
     },
     {
       name: "Emily W.",
       job: "Aspiring Developer",
       image: "https://randomuser.me/api/portraits/women/3.jpg",
       review:
-        "LaunchFast has been my guiding light in learning the TypeScript ecosystem and launching my projects. It's been an invaluable resource that I can't recommend enough.",
+        "QuickSaaS has been my guiding light in learning the TypeScript ecosystem and launching my projects. It's been an invaluable resource that I can't recommend enough.",
     },
     {
       name: "Rachel Adams",
       job: "Startup Co-Founder",
       image: "https://randomuser.me/api/portraits/women/5.jpg",
       review:
-        "Launching our startup was a daunting task, but LaunchFast made it a breeze. It gave us the solid foundation we needed to build our app quickly and efficiently. We couldn't be happier with the results.",
+        "Launching our startup was a daunting task, but QuickSaaS made it a breeze. It gave us the solid foundation we needed to build our app quickly and efficiently. We couldn't be happier with the results.",
     },
 
   ]
