@@ -16,7 +16,7 @@ export function HeroScrollDemo() {
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-white">
               The only Boilerplate <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+              <span className="mt-1 text-4xl font-bold leading-none md:text-[6rem]">
                 You&apos;ll Ever Need
               </span>
             </h1>
