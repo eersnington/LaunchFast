@@ -63,6 +63,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           fontHeading.variable
         )}
       >
+        <script defer data-domain="quicksaas.vercel.app" src="http://plausible-dsgcsog.23.21.74.219.sslip.io/js/script.js"></script>
         <ThemeProvider attribute="class" defaultTheme={siteConfig.defaultTheme} enableSystem disableTransitionOnChange>
           {children}
           <Analytics />
